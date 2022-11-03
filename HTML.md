@@ -1,3 +1,0 @@
-#*HTML*#
-
-##*Block-Level Tags*##
