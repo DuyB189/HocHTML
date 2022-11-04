@@ -7,23 +7,27 @@
     <meta name="description" content="Learn HTML for newbie"> <!-- Define a description of your web (đoạn miêu tả có trên trang tìm kiếm cùng với trang Web)-->
     <meta name="author" content="DuyBui"> <!--Define the author of a page-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Hỗ trợ cho các phiên bản IE thấp hơn-->
-    <meta http-equiv="refresh"  content="30"> <!--Tự động tải lại trang Refresh sau .. giây-->
+ <!--  <meta http-equiv="refresh"  content="30"> Tự động tải lại trang Refresh sau .. giây--> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hiển thị tối ưu với các thiết bị-->
+    
     <style>
-        .table-of-content {
+        .table-of-content { 
             border: 10px outset red;
             background-color: lightblue;
             text-align: left;
         }
-    
+        table, tr, td,th {
+            border: 1px solid black;
+            align-content: center;
+        }
     </style>
 </head>
 <body>
     <div>
     <h1>Tự học HTML cơ bản</h1>
         <div>
-            <q>Đây là những thông tin về kiến thức cơ bản của HTML</q> <br>
-            <a href="https://github.com/DuyB189/HocHTML">Link tài liệu tự học HTML - Github</a>
+            <q>Đây là những thông tin về kiến thức cơ bản của HTML</q> <br> 
+            <a href="https://github.com/DuyB189/HocHTML" target="_blank">Link tài liệu tự học HTML - Github</a>
         </div>
     </div>
 
@@ -47,30 +51,91 @@
     </ul>
     <hr/>
     </div>
-    
+
     <div>
         <h2>Danh sách theo thứ tự ưu tiên: </h2>
         <ol>
-            <li>Element</li>
-            <li>Attributes</li>
-            <li>Base tags: html, head, meta, body, script, link </li>
-            <li>Headings, Pragraph</li>
-            <li>Grouping content</li>
-            <li>Table</li>
-            <li>Form</li>
-            <li>Media</li>
-            <li>Symbols, Emoji</li>
-            <li>Graphics</li>
-            <li>HTML APIs</li></li>
+            <li><a href="#C1">Element</a></li>
+            <li><a href="#C2">Attributes</a></li>
+            <li><a href="#C3">Base tags: html, head, meta, body, script, link</a></li>
+            <li><a href="#C4">Headings, Pragraph</a></li>
+            <li><a href="#C5">Grouping content</a></li>
+            <li><a href="#C6">Table</a></li>
+            <li><a href="#C7">Form</a></li>
+            <li><a href="#C8">Media</a></li>
+            <li><a href="#C9">Symbols, Emoji</a></li>
+            <li><a href="#C10">Graphics</a></li>
+            <li><a href="#C11">HTML APIs</a></li></li>
         </ol>
     </div>
 
+    <div>
+        <h2 id="C1">Chương 1: Element</h2>
+    </div>
+
+    <div>
+        <h2 id="C2">Chương 2: Attributes</h2>
+    </div>
+
+    <div>
+        <h2 id="C3">Chương 3: Base tags: html, head, meta, body, script, link</h2>
+    </div>
+
+    <div>
+        <h2 id="C4">Chương 4: Headings, Pragraph</h2>
+    </div>
+
+    <div>
+        <h2 id="C5">Chương 5: Grouping content</h2>
+    </div>
+
+    <div>
+        <h2 id="C6">Chương 6: Table</h2>
+        <p>Cách tạo bảng trong HTML</p>
+        <table style="width:50%">
+            <caption>Đây là Caption của bảng</caption>
+            <!--Cột trong bảng-->
+            <tr>
+                <th>Cột 1</th>
+                <th>Cột 2</th>
+                <th>Cột 3</th>
+            </tr>
+            <!--Dữ liệu trong bảng-->
+            <tr>
+                <td>Dữ liệu cột 1</td>
+                <td>Dữ liệu cột 2</td>
+                <td>Dữ liệu cột 3</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h2 id="C7">Chương 7: Form</h2>
+    </div>
+
+    <div>
+        <h2 id="C8">Chương 8: Media</h2>
+    </div>
+
+    <div>
+        <h2 id="C9">Chương 9: Symbols, Emoji</h2>
+    </div>
+
+    <div>
+        <h2 id="C10">Chương 10: Graphics</h2>
+    </div>
+
+    <div>
+        <h2 id="C11">Chương 11: HTML APIs</h2>
+    </div>
     <footer>
+    <!--
         <script>
             alert("Chào mừng bạn đến trang tự học HTML cơ bản!");
-          </script>
+        </script>
+    -->
     </footer>
-    
+
 </body>
 </html>
 
