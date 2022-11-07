@@ -111,6 +111,65 @@
 
     <div>
         <h2 id="C7">Chương 7: Form</h2>
+        <h3>Những kiểu form trong HTML</h3>
+        <div>
+            <strong>Form nhập liệu</strong>
+            <form>
+                <label for="fname">Nhập họ</label><br>
+                <input type="text" name="fname" id="fname"><br>
+                <label for="lname">Nhập tên</label><br>
+                <input type="text" name="lname" id="lname"><br>
+            </form>
+        </div>
+
+        <div>
+            <strong>Form chọn radio</strong> <br>
+            <em>Ngôn ngữ yêu thích của bạn là gì</em>
+            <form>
+                <input type="radio" name="fav_language" id="html" value="HTML">
+                <label for="html">HTML</label>
+                <input type="radio" name="fav_language" id="css" value="CSS">
+                <label for="css">CSS</label>
+                <input type="radio" name="fav_language" id="js" value="JS">
+                <label for="js">JS</label>
+
+                <br><em>Hoặc</em><br>
+
+                <input type="radio" name="fav_language" id="html" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" name="fav_language" id="css" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" name="fav_language" id="js" value="JS">
+                <label for="js">JS</label>
+            </form>
+        </div>
+            
+        <div>
+            <strong>Form checkbox</strong><br>
+            <em>Bạn đã tiêm bao nhiêu mũi vaccine rồi</em><br>
+            <form>
+                <input type="checkbox" name="vaccine1" id="vaccine1" value="one">
+                <label for="vaccine1">1 mũi</label> <br>
+                <input type="checkbox" name="vaccine2" id="vaccine2" value="two">
+                <label for="vaccine2">2 mũi</label> <br>
+                <input type="checkbox" name="vaccine1" id="vaccine3" value="three">
+                <label for="vaccine3">3 mũi</label> <br>
+            </form>
+        </div>
+
+        <div>
+            <strong>Form nhập liệu có nút SUBMIT</strong>
+            <form>
+                <label for="fname">Nhập họ</label><br>
+                <input type="text" name="fname" id="fname"><br>
+                <label for="lname">Nhập tên</label><br>
+                <input type="text" name="lname" id="lname"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        
+
     </div>
 
     <div>
@@ -128,14 +187,14 @@
     <div>
         <h2 id="C11">Chương 11: HTML APIs</h2>
     </div>
+  
     <footer>
-    <!--
+        <!--
         <script>
             alert("Chào mừng bạn đến trang tự học HTML cơ bản!");
         </script>
-    -->
-    </footer>
-
+        -->
+     </footer>
 </body>
 </html>
 
