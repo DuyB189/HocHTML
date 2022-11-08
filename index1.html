@@ -38,7 +38,19 @@
         a:active{
             color: red;
         }
-
+        .btn-button {
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px 35px;
+        color: #ffffff ;
+        border-radius: 5px;
+        background: #9B6A1D;
+        border: 1px solid #9B6A1D;
+        transition: 0.4s;
+        }
+        .btn-button:hover {
+        background: #c02b2b;
+        }
     </style>
 </head>
 <body>
@@ -47,6 +59,9 @@
         <div>
             <q>Đây là những thông tin về kiến thức cơ bản của HTML</q> <br> 
             <a href="https://github.com/DuyB189/HocHTML" target="_blank">Link tài liệu tự học HTML - Github</a>
+        </div>
+        <div>
+            <button type="button" onclick="location.href='index2.html';" class="btn-button">CSS</button> <!-- truyền theo kiểu JS-->
         </div>
     </div>
 
