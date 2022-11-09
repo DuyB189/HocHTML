@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id ="lesson1">
+    <div class ="lesson1">
         <h1>I am a level one heading</h1>
 
         <p class="special">
@@ -29,8 +29,6 @@
             <li>Item <em>three</em></li>
         </ul>
     </div>
-    
-    <br><br>
 
     <div class="outer">
         <div class="box">
@@ -38,9 +36,159 @@
         </div>
     </div>
 
-    <br><br>
-
     <p class="special-p">What color am I</p>
 
+    <br><br><hr>
+    <p>Normal Layout</p>
+    <div class="normal_layout">
+        <div>
+            <p>I love my cat.</p>
+            <ul>
+                <li>Buy cat food</li>
+                <li>Exercise</li>
+                <li>Cheer up friend</li>
+            </ul>
+            <p>The end!</p>
+        </div>
+        
+    </div>
+
+    <p>Flex Layout</p>
+    <div class="wrapper">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+    </div>
+
+    <p>Grid Layout</p>
+    <div class="warapper-grid">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+        <div class="box5">box5</div>
+        <div class="box6">box6</div>
+    </div>
+
+    <p>Another Grid Layout</p>
+    <div class="warapper-grid-another">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+    </div>
+    <br><hr>
+    <div>
+        <h1 class="float-h1">Simple float example</h1>
+        <div class="box-float">Float</div>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
+            dolor, eu lacinia lorem placerat vulputate. Duis felis orci, pulvinar id metus
+            ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus
+            laoreet sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum,
+            tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus
+            neque, ac ornare ex malesuada et. In vitae convallis lacus. Aliquam erat
+            volutpat. Suspendisse ac imperdiet turpis. Aenean finibus sollicitudin eros
+            pharetra congue. Duis ornare egestas augue ut luctus. Proin blandit quam nec
+            lacus varius commodo et a urna. Ut id ornare felis, eget fermentum sapien.
+            </p>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
+            dolor, eu lacinia lorem placerat vulputate. Duis felis orci, pulvinar id metus
+            ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus
+            laoreet sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum,
+            tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus
+            neque, ac ornare ex malesuada et. In vitae convallis lacus. Aliquam erat
+            volutpat. Suspendisse ac imperdiet turpis. Aenean finibus sollicitudin eros
+            pharetra congue. Duis ornare egestas augue ut luctus. Proin blandit quam nec
+            lacus varius commodo et a urna. Ut id ornare felis, eget fermentum sapien.
+            </p>
+    </div>
+    <br><br><br><hr>
+    <h1 style="text-align: center ;">Table Style</h1>
+   <div>
+    <form>
+        <p>First of all, tell us your name and age.</p>
+        <div>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" />
+        </div>
+        <div>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" />
+        </div>
+        <div>
+          <label for="age">Age:</label>
+          <input type="text" id="age" />
+        </div>
+      </form>
+   </div>
+   <br><hr>
+   <div>
+    <div class="container">
+        <h1>Multi-column Layout</h1>
+      
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus
+          aliquam dolor, eu lacinia lorem placerat vulputate. Duis felis orci,
+          pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at
+          ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta.
+        </p>
+      
+        <p>
+          Nam vulputate diam nec tempor bibendum. Donec luctus augue eget malesuada
+          ultrices. Phasellus turpis est, posuere sit amet dapibus ut, facilisis sed
+          est. Nam id risus quis ante semper consectetur eget aliquam lorem.
+        </p>
+      
+        <p>
+          Vivamus tristique elit dolor, sed pretium metus suscipit vel. Mauris
+          ultricies lectus sed lobortis finibus. Vivamus eu urna eget velit cursus
+          viverra quis vestibulum sem. Aliquam tincidunt eget purus in interdum. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+          mus.
+        </p>
+      </div>
+   </div>
+   <br><hr>
+   <h1 style="text-align: center;">Stacking context</h1>
+   <div class="stacking-context">
+    <div id="div1">
+        <h1>Division Element #1</h1>
+        <code>position: relative;<br/>
+        z-index: 5;</code>
+      </div>
+      
+      <div id="div2">
+        <h1>Division Element #2</h1>
+        <code>position: relative;<br/>
+        z-index: 2;</code>
+      </div>
+      
+      <div id="div3">
+        <div id="div4">
+          <h1>Division Element #4</h1>
+          <code>position: relative;<br/>
+          z-index: 6;</code>
+        </div>
+      
+        <h1>Division Element #3</h1>
+        <code>position: relative;<br/>
+        z-index: 4;</code>
+      
+        <div id="div5">
+          <h1>Division Element #5</h1>
+          <code>position: relative;<br/>
+          z-index: 1;</code>
+        </div>
+      
+        <div id="div6">
+          <h1>Division Element #6</h1>
+          <code>position: absolute;<br/>
+          z-index: 3;</code>
+        </div>
+      </div>
+   </div>
+  
+  
 </body>
 </html>
