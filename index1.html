@@ -1,89 +1,107 @@
- <!--Tag <html> define the Whole HTML document-->
-<html lang="en"> <!-- lang = "en" - Declare the language in WEBSITE-->
+<!--Tag <html> define the Whole HTML document-->
+<html lang="en">
+<!-- lang = "en" - Declare the language in WEBSITE-->
+
 <head>
-    <title>Learn HTML</title> 
+    <title>Learn HTML</title>
     <meta charset="UTF-8"> <!-- Mã hóa kí tự cho tài liệu trong HTMl -->
-    <meta name="keywords"  content="HTML, Learn HTML, HORUS"> <!-- Define keyword for Search engines (SEO) -->
-    <meta name="description" content="Learn HTML for newbie"> <!-- Define a description of your web (đoạn miêu tả có trên trang tìm kiếm cùng với trang Web)-->
-    <meta name="author" content="DuyBui"> <!--Define the author of a page-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Hỗ trợ cho các phiên bản IE thấp hơn-->
- <!--  <meta http-equiv="refresh"  content="30"> Tự động tải lại trang Refresh sau .. giây--> 
+    <meta name="keywords" content="HTML, Learn HTML, HORUS"> <!-- Define keyword for Search engines (SEO) -->
+    <meta name="description" content="Learn HTML for newbie">
+    <!-- Define a description of your web (đoạn miêu tả có trên trang tìm kiếm cùng với trang Web)-->
+    <meta name="author" content="DuyBui">
+    <!--Define the author of a page-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Hỗ trợ cho các phiên bản IE thấp hơn-->
+    <!--  <meta http-equiv="refresh"  content="30"> Tự động tải lại trang Refresh sau .. giây-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hiển thị tối ưu với các thiết bị-->
-    
+
     <style>
-        .table-of-content { 
+        .table-of-content {
             border: 10px outset red;
             background-color: #DEF4FF;
             text-align: left;
         }
-        table, tr, td,th {
+
+        table,
+        tr,
+        td,
+        th {
             border: 1px solid black;
             align-content: center;
         }
-        .mucluc{
+
+        .mucluc {
             border: 1px outset white;
             background-color: #DEF4FF;
             text-align: left;
         }
+
         /*Style hyperlink*/
-        a:link{
+        a:link {
             color: black;
         }
-        a:hover{
+
+        a:hover {
             color: red;
         }
-        a:visited{
+
+        a:visited {
             color: #A4CA55;
         }
-        a:active{
+
+        a:active {
             color: red;
         }
+
         .btn-button {
-        cursor: pointer;
-        font-size: 16px;
-        padding: 10px 35px;
-        color: #ffffff ;
-        border-radius: 5px;
-        background: #9B6A1D;
-        border: 1px solid #9B6A1D;
-        transition: 0.4s;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px 35px;
+            color: #ffffff;
+            border-radius: 5px;
+            background: #9B6A1D;
+            border: 1px solid #9B6A1D;
+            transition: 0.4s;
         }
+
         .btn-button:hover {
-        background: #c02b2b;
+            background: #c02b2b;
         }
     </style>
 </head>
+
 <body>
     <div>
-    <h1>Tự học HTML cơ bản</h1>
+        <h1>Tự học HTML cơ bản</h1>
         <div>
-            <q>Đây là những thông tin về kiến thức cơ bản của HTML</q> <br> 
+            <q>Đây là những thông tin về kiến thức cơ bản của HTML</q> <br>
             <a href="https://github.com/DuyB189/HocHTML" target="_blank">Link tài liệu tự học HTML - Github</a>
         </div>
         <div>
-            <button type="button" onclick="location.href='index2.html';" class="btn-button">CSS</button> <!-- truyền theo kiểu JS-->
+            <button type="button" onclick="location.href='index2.html';" class="btn-button">CSS</button>
+            <!-- truyền theo kiểu JS-->
         </div>
     </div>
 
     <div>
-    <h2>Nội dung: </h2>
-    <ul class="table-of-content">
-        <li>Overview</li>
-        <li>What's new in HTML5</li>
-        <li>XTML vs HTML</li>
-        <li>Base tags: html, head, meta, body, script, link </li>
-        <li>Element</li>
-        <li>Attributes</li>
-        <li>Headings, Pragraph</li>
-        <li>Grouping content</li>
-        <li>Table</li>
-        <li>Form</li>
-        <li>Media</li>
-        <li>Symbols, Emoji</li>
-        <li>Graphics</li>
-        <li>HTML APIs</li>
-    </ul>
-    <hr/>
+        <h2>Nội dung: </h2>
+        <ul class="table-of-content">
+            <li>Overview</li>
+            <li>What's new in HTML5</li>
+            <li>XTML vs HTML</li>
+            <li>Base tags: html, head, meta, body, script, link </li>
+            <li>Element</li>
+            <li>Attributes</li>
+            <li>Headings, Pragraph</li>
+            <li>Grouping content</li>
+            <li>Table</li>
+            <li>Form</li>
+            <li>Media</li>
+            <li>Symbols, Emoji</li>
+            <li>Graphics</li>
+            <li>HTML APIs</li>
+        </ul>
+        <hr />
     </div>
 
     <div class="mucluc">
@@ -99,7 +117,8 @@
             <li><a href="#C8">Media</a></li>
             <li><a href="#C9">Symbols, Emoji</a></li>
             <li><a href="#C10">Graphics</a></li>
-            <li><a href="#C11">HTML APIs</a></li></li>
+            <li><a href="#C11">HTML APIs</a></li>
+            </li>
         </ol>
     </div>
 
@@ -177,7 +196,7 @@
                 <label for="js">JS</label>
             </form>
         </div>
-            
+
         <div>
             <strong>1.3 Form checkbox</strong><br>
             <em>Bạn đã tiêm bao nhiêu mũi vaccine rồi</em><br>
@@ -210,35 +229,39 @@
                     <em>- Đây là element <strong>label</strong></em>
                     <br><br>
 
-                    <input type="text" name="fname" id="fname"> 
+                    <input type="text" name="fname" id="fname">
                     <em>Đây là element <strong>input</strong> với type là <strong>text</strong></em>
                     <br><br>
-                    
-                    <select name="cars" id="cars"> 
+
+                    <select name="cars" id="cars">
                         <option value="volvo">Volvo</option>
                         <option value="audi">Audi</option>
                         <option value="vinfast">Vinfast</option>
                         <option value="Merc">Merc</option>
                     </select>
-                    <em>Đây là element <strong>select</strong> với 4 giá trị là element <strong>option</strong> tùy chọn và không có thuộc tính <strong>size</strong> trong tag <strong>select</strong></em>
-                    <br><br>
-                    
-                    <select name="cars" id="cars" size="5"> 
-                        <option value="volvo">Volvo</option>
-                        <option value="audi">Audi</option>
-                        <option value="vinfast">Vinfast</option>
-                        <option value="Merc">Merc</option>
-                    </select>
-                    <em>Đây là element <strong>select</strong> với 4 giá trị là element <strong>option</strong> tùy chọn và có thuộc tính <strong>size</strong> = "5" trong tag <strong>select</strong></em>
+                    <em>Đây là element <strong>select</strong> với 4 giá trị là element <strong>option</strong> tùy chọn
+                        và không có thuộc tính <strong>size</strong> trong tag <strong>select</strong></em>
                     <br><br>
 
-                    <select name="cars" id="cars" size="5" multiple> 
+                    <select name="cars" id="cars" size="5">
                         <option value="volvo">Volvo</option>
                         <option value="audi">Audi</option>
                         <option value="vinfast">Vinfast</option>
                         <option value="Merc">Merc</option>
                     </select>
-                    <em>Đây là element <strong>select</strong> với 4 giá trị là element <strong>option</strong> tùy chọn, có thuộc tính <strong>multiple</strong> và có thuộc tính <strong>size</strong> = "5" trong tag <strong>select</strong></em>
+                    <em>Đây là element <strong>select</strong> với 4 giá trị là element <strong>option</strong> tùy chọn
+                        và có thuộc tính <strong>size</strong> = "5" trong tag <strong>select</strong></em>
+                    <br><br>
+
+                    <select name="cars" id="cars" size="5" multiple>
+                        <option value="volvo">Volvo</option>
+                        <option value="audi">Audi</option>
+                        <option value="vinfast">Vinfast</option>
+                        <option value="Merc">Merc</option>
+                    </select>
+                    <em>Đây là element <strong>select</strong> với 4 giá trị là element <strong>option</strong> tùy
+                        chọn, có thuộc tính <strong>multiple</strong> và có thuộc tính <strong>size</strong> = "5" trong
+                        tag <strong>select</strong></em>
                     <br><br>
 
                     <textarea name="message" cols="30" rows="10">Điền nội dung vào đây   
@@ -279,16 +302,16 @@
         <div>
             <video width="300" height="200" controls loop>
                 <source src="rickroll.mp4" type="video/mp4">
-            </video> 
+            </video>
             <video width="300" height="200" autoplay muted loop>
                 <source src="rickroll.mp4" type="video/mp4">
-            </video> 
+            </video>
             <br>
             <p>Chèn hình ảnh theo link của Youtube</p>
             <iframe src="https://www.youtube.com/embed/xm3YgoEiEDc">
             </iframe>
         </div>
-        
+
 
     </div>
 
@@ -303,14 +326,14 @@
     <div>
         <h2 id="C11">Chương 11: HTML APIs</h2>
     </div>
-  
+
     <footer>
-     
+
         <script>
           //  alert("Chào mừng bạn đến trang tự học HTML cơ bản!");
         </script>
-        
-     </footer>
-</body>
-</html>
 
+    </footer>
+</body>
+
+</html>
